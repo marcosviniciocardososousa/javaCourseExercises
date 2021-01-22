@@ -5,25 +5,23 @@ import java.util.Scanner;
 public class exercicio4 {
 
 	public static void main(String[] args) {
-		int contadorDeDivisores = 0;
-		Scanner scanner = new Scanner(System.in);
-
-		System.out.println("\nDigite um numero para verificar se é primo:");
-		int numero = scanner.nextInt();
-
-		for (int i = 2; i < numero; i++) {
-			if (numero % i == 0) {
-				contadorDeDivisores++;
+		Scanner input = new Scanner(System.in);
+		int contaDiv = 0;
+		
+		System.out.print("Informe um número para verificarmos se é primo: ");
+		int n = input.nextInt();
+		
+		for(int i = 2; i < n; i++) {
+			if (n % i == 0) {
+				contaDiv++;
 			}
 		}
+		
+		String result = contaDiv == 0 ? "é primo!" : "não é primo!";
+		
+		System.out.println("O número "+result);
 
-		if (contadorDeDivisores == 0) {
-			System.out.println("\nO numero " + numero + " é primo.");
-		} else {
-			System.out.println("\nO numero " + numero + " não é primo.");
-		}
-
-		scanner.close();
+		input.close();
 	}
 
 }

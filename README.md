@@ -5,4 +5,4 @@
 <br>
 <hr>
 
-_**this repository is intended for publications related to my studies on the java language, I hope that in your visit to this repository you can get some relevant information for your projects, thanks for visiting my repository!	:heart:**_
+_**this repository is intended for publications related to my studies in java language, I hope that in your visit to this repository you can get some relevant information for your projects, thanks for visiting my repository!	:heart:**_

@@ -1,4 +1,4 @@
-package desafioOperadoresAritmÃ©ticos;
+package desafioOperadoresAritméticos;
 
 public class Main {
 

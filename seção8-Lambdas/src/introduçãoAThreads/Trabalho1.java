@@ -1,4 +1,4 @@
-package introduÃ§Ã£oAThreads;
+package introduçãoAThreads;
 
 public class Trabalho1  implements Runnable{
 

@@ -1,4 +1,4 @@
-package desafioFinalCorreÃ§Ã£o;
+package desafioFinalCorreção;
 
 public class Jantar {
 

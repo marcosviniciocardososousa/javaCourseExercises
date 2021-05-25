@@ -1,4 +1,4 @@
-package herança.jogo;
+package heranca2.jogo�a.jogo;
 
 import herança.Direcao;
 import herança.Heroi;

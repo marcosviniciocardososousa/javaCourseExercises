@@ -1,8 +1,4 @@
-package herança.desafio1.teste;
-
-import herança.desafio1.Carro;
-import herança.desafio1.Civic;
-import herança.desafio1.Ferrari;
+package heranca2.desafio2�a.desafio2;
 
 public class UsandoCarro {
 
@@ -24,32 +20,25 @@ public class UsandoCarro {
 		civic.acelerar();
 		civic.acelerar();
 		civic.acelerar();
+		civic.acelerar();
+		civic.acelerar();
+		civic.acelerar();
 		
 		//acelerando ferrrari
 		ferrari.acelerar();
 		ferrari.acelerar();
 		ferrari.acelerar();
+		ferrari.acelerar();
+		ferrari.acelerar();
+		ferrari.acelerar();
+		ferrari.acelerar();
+		ferrari.acelerar();
+		ferrari.acelerar();
 		
 		System.out.println("Velocidade Civic : "+civic.velocidade);
 		System.out.println("Velocidade Ferrari : "+ferrari.velocidade);
 		System.out.println();
 		
-		//freando civic
-		civic.frear();
-		civic.frear();
-		civic.frear();
-		civic.frear();
-		
-		//freando ferrari
-		ferrari.frear();
-		ferrari.frear();
-		ferrari.frear();
-		ferrari.frear();
-		
-		
-		System.out.println("Velocidade Civic : "+civic.velocidade);
-		System.out.println("Velocidade Ferrari : "+ferrari.velocidade);
-		System.out.println();
 		
 		
 	}

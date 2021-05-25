@@ -1,4 +1,4 @@
-package heran√ßa.desafio2;
+package heranca2.desafio2ßa.desafio2;
 
 public class Civic extends Carro {
 

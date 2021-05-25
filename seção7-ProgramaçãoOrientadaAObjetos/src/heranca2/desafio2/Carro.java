@@ -1,4 +1,4 @@
-package heranÃ§a.desafio2;
+package heranca2.desafio2§a.desafio2;
 
 public class Carro {
 

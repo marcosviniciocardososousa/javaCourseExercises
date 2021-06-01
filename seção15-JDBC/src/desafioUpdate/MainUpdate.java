@@ -70,8 +70,10 @@ public class MainUpdate {
 				System.out.println("Algo inesperado aconteceu ...");
 				}
 			}catch (RuntimeException e) {
-			System.out.println("Foi relatado um erro inesperado ...");
-			main(args);
+				input.close();
+				conexao.close();
+				System.out.println("Foi relatado um erro inesperado ...");
+				main(args);
 		}
 		
 		

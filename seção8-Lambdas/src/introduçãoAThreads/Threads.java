@@ -10,8 +10,8 @@ public class Threads {
 		
 		Runnable trabalho1 = new Trabalho1(); 
 		Runnable trabalho2 = new Runnable() {
-			//Runnable é uma interface do java que cria uma nova thread
-			//Runnable cria uma classe anônima (a classe não existe).
+			//Runnable nao uma interface do java que cria uma nova thread
+			//Runnable cria uma classe anônima (a classe nao existe).
 			public void run() {
 				for(int i = 0; i < 100; i++) {
 					System.out.println("Tarefa #02");

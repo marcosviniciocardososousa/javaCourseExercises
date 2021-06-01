@@ -1,4 +1,4 @@
-package desafio01;
+package desafioSelectLike;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

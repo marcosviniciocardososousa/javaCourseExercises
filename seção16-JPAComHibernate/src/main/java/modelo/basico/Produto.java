@@ -1,24 +1,34 @@
 package modelo.basico;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-public class Produto {
+@Table(name = "produtos")
+public class Produto implements Entidade {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@Column(name = "prod_nome", length = 200, nullable = false)
 	private String nome;
+	
+	@Column(name = "prod_preco", nullable = false, precision = 11, scale = 2)
 	private Double preco;
+	/*
+	 * precision = quantidade de casas 
+	 * scale     = quantas casas após a virgula
+	 * nullable  = aceita valores nulos?
+	 * name      = nome da coluna (caso nao seja o mesmo nome do atributo)
+	 */
 	
 	
-	public Produto(Long id, String nome, Double preco) {
-		super();
-		this.id = id;
+	public Produto(String nome, Double preco) {
 		this.nome = nome;
 		this.preco = preco;
 	}

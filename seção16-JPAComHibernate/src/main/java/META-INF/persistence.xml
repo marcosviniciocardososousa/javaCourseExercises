@@ -3,7 +3,7 @@
 	<persistence-unit name="seção16-JPAComHibernate">
   			<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
   			
-  			<mapping-file>META-INF/consultas.xml</mapping-file>
+  			<mapping-file>herancaEmJPA/consultas.xml</mapping-file>
   			
         	<class>modelo.basico.Usuario</class> 
         	<class>modelo.basico.Produto</class>
@@ -15,6 +15,11 @@
         	<class>relacaoNparaN1.Sobrinho</class>
         	<class>relacaoNparaN2.Ator</class>
         	<class>relacaoNparaN2.Filme</class>
+        	<class>composicao.Endereco</class>
+        	<class>composicao.Funcionario</class>
+        	<class>composicao.Fornecedor</class>
+        	<class>herancaEmJPA.Aluno</class>
+        	<class>herancaEmJPA.AlunoBolsista</class>
 		
 		<properties>
 		

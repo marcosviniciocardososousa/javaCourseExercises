@@ -3,7 +3,7 @@ package introduçãoAThreads;
 public class Threads {
 
 	public Threads(Runnable trabalho1) {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Threads {
 		Runnable trabalho1 = new Trabalho1(); 
 		Runnable trabalho2 = new Runnable() {
 			//Runnable nao uma interface do java que cria uma nova thread
-			//Runnable cria uma classe anÃ´nima (a classe nao existe).
+			//Runnable cria uma classe anonima (a classe nao existe).
 			public void run() {
 				for(int i = 0; i < 100; i++) {
 					System.out.println("Tarefa #02");

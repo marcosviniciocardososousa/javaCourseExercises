@@ -76,6 +76,18 @@ public class DAO<E> {
 		return this.obterTodos(10,0); //como houve a sobrecarga ele esta chamando o metodo acima e nao esse
 		//assim conseguimos definir um limite do obter todos
 	}
+	
+	//consulta usando named query
+	public List<E> consultar (String nomeConsulta, Object... params){
+		TypedQuery<E> query = em.createNamedQuery(nomeConsulta, classe);
+		
+		for(int i = 0; i < params.length; i += 2) {
+			query.setParameter(params[i].toString(), params[i + 1]);
+		}
+		
+		return query.getResultList();
+	}
+	
 	public E obterPeloId(Object id) {
 		return em.find(classe, id);
 	}
